@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-      <header className="header app__header">
+      <header className="header">
         Заголовок
       </header>
   );

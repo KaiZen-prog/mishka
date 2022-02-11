@@ -1,1 +1,23 @@
-$desktop-width-min: 1020px;
+// Colors
+//---------------------------------
+// https://www.htmlcsscolor.com/hex/334482
+
+// Default
+
+$color-default-black:             #000000;
+$color-default-white:             #ffffff;
+$color-transparent:               rgba(255, 255, 255, 0);
+
+// Base
+
+$color-charcoal:                    #444444;
+$color-downy-1:                     #63D1BB;
+$color-downy-2:                     #59D5BC;
+$color-puerto-rico-1:               #56C3B2;
+$color-puerto-rico-2:               #46C1AE;
+$color-white-smoke:                 #F1F1F1;
+
+// Typography
+//---------------------------------
+
+$font-family--main:                "Open Sans", "Arial", sans-serif;

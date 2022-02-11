@@ -1,8 +1,28 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+  url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+  url("../fonts/OpenSans-Bold.woff") format("woff");
+}
+
 body {
   min-width: 1020px;
   -webkit-min-logical-width: 1003px;
   margin: 0 auto;
-  font-family: "Droid Sans", "Arial", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   color: #000;
   background-color: #fff;
 
@@ -13,6 +33,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -34,19 +58,10 @@ input[type="radio"].visually-hidden {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
-  .app__header,
-  .app__footer {
-    flex: 0 0 auto;
-  }
-
-  .app__main {
-    flex: 1 0 auto;
-  }
 }
 
 .container {
-  width: 1020px;
+  width: 1150px;
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-      <footer className="footer app__footer">
+      <footer className="footer">
         Подвал
       </footer>
   );
